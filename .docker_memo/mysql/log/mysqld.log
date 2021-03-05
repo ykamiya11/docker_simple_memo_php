@@ -411,3 +411,59 @@ Version: '5.7.32'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 2021-03-03T15:47:33.445459Z 0 [Note] Event Scheduler: Loaded 0 events
 2021-03-03T15:47:33.447514Z 0 [Note] mysqld: ready for connections.
 Version: '5.7.32'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2021-03-04T12:05:51.428300Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2021-03-04T12:05:51.431211Z 0 [Note] Shutting down slave threads
+2021-03-04T12:05:51.432650Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2021-03-04T12:05:51.435315Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-03-04T12:05:51.438670Z 0 [Note] Binlog end
+2021-03-04T12:05:51.441506Z 0 [Note] Shutting down plugin 'ngram'
+2021-03-04T12:05:51.449676Z 0 [Note] Shutting down plugin 'partition'
+2021-03-04T12:05:51.453834Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2021-03-04T12:05:51.456081Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2021-03-04T12:05:51.457336Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2021-03-04T12:05:51.459477Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2021-03-04T12:05:51.461594Z 0 [Note] Shutting down plugin 'MyISAM'
+2021-03-04T12:05:51.464575Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2021-03-04T12:05:51.467093Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2021-03-04T12:05:51.469225Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2021-03-04T12:05:51.471058Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2021-03-04T12:05:51.473109Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2021-03-04T12:05:51.474875Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2021-03-04T12:05:51.476185Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2021-03-04T12:05:51.478025Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2021-03-04T12:05:51.479757Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2021-03-04T12:05:51.481130Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2021-03-04T12:05:51.482326Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2021-03-04T12:05:51.483359Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2021-03-04T12:05:51.484728Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2021-03-04T12:05:51.485702Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2021-03-04T12:05:51.486832Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2021-03-04T12:05:51.487850Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2021-03-04T12:05:51.489104Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2021-03-04T12:05:51.490454Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2021-03-04T12:05:51.491746Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2021-03-04T12:05:51.493147Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2021-03-04T12:05:51.493869Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2021-03-04T12:05:51.494963Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2021-03-04T12:05:51.496100Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2021-03-04T12:05:51.497092Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2021-03-04T12:05:51.498372Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2021-03-04T12:05:51.499605Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2021-03-04T12:05:51.500972Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2021-03-04T12:05:51.502405Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2021-03-04T12:05:51.503644Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2021-03-04T12:05:51.504906Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2021-03-04T12:05:51.506682Z 0 [Note] Shutting down plugin 'InnoDB'
+2021-03-04T12:05:51.507774Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-03-04T12:05:51.509417Z 0 [Note] InnoDB: Starting shutdown...
+2021-03-04T12:05:51.616526Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2021-03-04T12:05:51.633044Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 210304 21:05:51
+2021-03-04T12:05:53.157297Z 0 [Note] InnoDB: Shutdown completed; log sequence number 12623775
+2021-03-04T12:05:53.188367Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-03-04T12:05:53.191128Z 0 [Note] Shutting down plugin 'MEMORY'
+2021-03-04T12:05:53.194426Z 0 [Note] Shutting down plugin 'CSV'
+2021-03-04T12:05:53.203472Z 0 [Note] Shutting down plugin 'sha256_password'
+2021-03-04T12:05:53.204707Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2021-03-04T12:05:53.206248Z 0 [Note] Shutting down plugin 'binlog'
+2021-03-04T12:05:53.212040Z 0 [Note] mysqld: Shutdown complete
+
