@@ -1,5 +1,12 @@
 <?php
     session_start();
+    //ログイン画面のアクセス制御
+    require '../common/auth.php';
+
+    if(isLogin()){
+        header('Location: ../memo/');
+        exit;
+    }
 ?>
 <!DOCTYPE html> 
 <html lang="ja">

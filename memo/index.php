@@ -1,3 +1,12 @@
+<?php
+//メモ投稿画面のアクセス制御
+require '../common/auth.php';
+
+if(!isLogin()){
+    header('Location: ../login/');
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="ja">    
     <?php

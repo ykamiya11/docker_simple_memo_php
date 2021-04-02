@@ -967,3 +967,5 @@ Version: '5.7.32'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 2021-03-31T22:19:56.413936Z 0 [Note] Event Scheduler: Loaded 0 events
 2021-03-31T22:19:56.416796Z 0 [Note] mysqld: ready for connections.
 Version: '5.7.33'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2021-04-02T23:45:58.266577Z 22 [Note] Unknown database 'simple_memo'
+2021-04-02T23:46:32.722920Z 23 [Note] Unknown database 'simple_memo'
