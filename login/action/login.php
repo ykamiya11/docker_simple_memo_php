@@ -55,13 +55,19 @@
                 'name' => $name,
                 'id' => $id
             ];
-
-            header('Location: ../../memo/');
-            exit;
-        } else {
-            $_SESSION['errors'] = [
-                'メールアドレスまたはパスワードが間違っています。'
-            ];
+            if ($statement = $database_handler->prepare("SELECT id, title, content FROM memos WHERE user_id = :user_id ORDER BY updated_at DESC LIMIT 1")) {
+                $statement->bindParam(":user_id", $id);
+                $statement->execute();
+                $result = $statement->fetch(PDO::FETCH_ASSOC);
+        
+                if ($result) {
+                    $_SESSION['select_memo'] = [
+                        'id' => $result['id'],
+                        'title' => $result['title'],
+                        'content' => $result['content']
+                    ];
+                }
+            }
             header('Location: ../../login/');
             exit;
         }
